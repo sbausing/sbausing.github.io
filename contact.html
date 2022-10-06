@@ -26,6 +26,33 @@
           </div>
         </div>
       </nav>
-      
+      <h1 class="text-center">Steven Bausinger's Website</h1>
+      <form>
+        <div class="mb-3">
+          <label for="firstNameInput" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="firstNameInput" required>
+        </div>
+        <div class="mb-3">
+          <label for="lastNameINput" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="lastNameINput" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="messageInput" class="form-label">Message</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <div class="mb-3">
+          <p>Radio</p>
+          <label for="priority" class="form-label">Priority</label>
+          <input type="radio" name="low" id="low" value="Low">
+          <input type="radio" name="medium" id="medium" value="Medium">
+          <input type="radio" name="high" id="high" value="High">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
 </body>
 </html>
